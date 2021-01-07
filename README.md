@@ -1,2 +1,5 @@
 # SivAxis.github.io
-Personal Account Website
+
+### Description
+My account website, to share projects, code among other things.
+
