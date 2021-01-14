@@ -2,7 +2,7 @@ Hi! and welcome to the **SivAxis** website. I'm SivAxis and this is where I shar
 
 ## Contributing 
 #### Found bugs or typos?
-Consider opening an issue or submit a Pull Request fixing the issue. For more info check the [contributing guidelines](https://github.com/SivAxis/SivAxis.github.io/blob/main/CONTRIBUTING.md).
+Consider opening an issue or submit a Pull Request fixing the issue. For more info check the contributing guidelines.
 
 # Posts
 _No posts yet..._
