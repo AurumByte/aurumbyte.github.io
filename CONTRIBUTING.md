@@ -7,3 +7,8 @@ If you found bugs such as a broken/dead link and other bugs in the website, open
 
 ### Typos
 There are bound to be some typos in any website at any point. If you find any, open an issue or submit a _Pull Request_.
+
+
+## Conclusion
+If you do contribute major changes to the webpage, please indent the code and comment where necessary.
+*Happy contributing!*
