@@ -10,5 +10,20 @@ So now you are probably thinking, "Wait, so you quit using C++ just because you 
 
 ## Design Phase
 
-The first couple months were all for designing the syntax of Cylvre. The final syntax of the language was completely different, but those changes were from necessity rather than aesthetics.
+The first couple months were all for designing the syntax of Cylvre. The final syntax of the language was completely different, but those changes were from necessity rather than aesthetics. Next was the platform to deploy it to. After several websites, and a bunch of research, it came down to two options: LLVM and the JVM. I wanted LLVM due to its speed and ability to convert into binaries but eventually chose the JVM due to its clear specifications and the use of the Java standard library. This came at a price, to learn Java. Although Kotlin was also an option, I chose to use Java to create my language. Kotlin has all these nice features and it is very concise, but sometimes I had a hard time reading Kotlin code. No offense to people who love Kotlin, but sometimes, there is a learning curve that comes with the conciseness that Kotlin offers.
+
+The aim of my language was to provide an extremely beginner-friendly, safe and powerfull language without sacrificing conciseness.
+
+## Implementataion
+
+Finally, after designing the language, it was time to implement the compiler. I did some research and decided to use ANTLR for the lexing and parsing of my language.
+Why did I choose ANTLR? Well, I was capable of writing a good lexer, but my parser... not so much. ANTLR provided fairly performant lexer/parser with the listener/visitor system so that it would be easy to generate JVM bytecode.
+
+For the compiler itself, I searched website after website reading compiler theories, browsing compiler models and code through Github when I finally found the perfect model to write my compiler with. It was the compiler from this repository: [JakubDsiworski/Enkel-JVM-language](https://github.com/JakubDziworski/Enkel-JVM-language).
+Yes, the code hasn't been updated for almost 6 years now but it was perfect. No compilcated IR Builders, Launchers and other stuff that could overwhelm a teen. Just three sections: Nodes, Visitors, ByteCode Generators. 
+
+So, with the compiler as a reference, I started building the compiler. I got the compiler nearly done but it started giving some very weird errors and I eventually had to scrap it. I started on the second one, and almost got it finished. It was time for testing. My spirits were high when it all started to go rapidly downhill. All I had to do was to add the bytecode generator for the ``main()`` function but through some NPEs, a developer's worst nightmare. I got it working upto a simple ``Hello World`` program, but every other test put out thousands of Null Pointer Exceptions. Compiler 2 was scrapped.
+
+At this point I was getting disheartened and frustrated. I was trying to find a way to build a compiler that works and that's when it hit me, The Eureka moment.
+I quickly pull up my computer and cloned the repository I mentioned earlier.
 
