@@ -26,5 +26,9 @@ So, with the compiler as a reference, I started building the compiler. I got the
 
 At this point I was getting disheartened and frustrated. I was trying to find a way to build a compiler that works and that's when it hit me, The Eureka moment.
 I quickly pull up my computer, cloned the repository I mentioned earlier, and started hacking away. I wanted this compiler to be as close to the original as possible.
-Soon, as in a couple of weeks, I got Compiler 3 up and running. I faced some NPEs but eventually got the compiler up and running and... IT WORKED! For a developer, nothing beats the feeling of using a working piece of software he/she created. Although there were many problems, Compiler 3 could successfully compile and run basic printing, variable declaration, loops, basic conditionals etc. The biggest problem was that Compiler 3 still couldn't reference Java API. But for me... If it works (somewhat) It Works!
+Soon, as in a couple of weeks, I got Compiler 3 up and running. I faced some NPEs but eventually got the compiler up and running and... IT WORKED! For a developer, nothing beats the feeling of using a working piece of software he/she created. Although there were many problems, Compiler 3 could successfully compile and run basic printing, variable declaration, loops, basic conditionals etc. The biggest problem was that Compiler 3 still couldn't reference Java API. But for me... If it works (somewhat) It Works!... right?
 
+
+## Conclusion
+
+So far, I know that I have got enough features running to make it a small, functional language. Its not complete yet... and will be subjected to lots of changes but the final product will be to provide a great and powerful language that is easy from a user's perspective. Sure, I may be slightly inexperienced for such a project but this is a long term project. I am determined to bring it to v1.0.0, and nothing will change my mind.
