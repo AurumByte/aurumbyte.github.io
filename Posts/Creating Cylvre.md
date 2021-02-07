@@ -1,6 +1,6 @@
 # Creating Cylvre - The steps I took to create a JVM Programming Language
 
-![](https://github.com/SivAxis/SivAxis.github.io/blob/main/images/Always need new programming languages (freeCodeCamp).png)
+![](https://github.com/SivAxis/SivAxis.github.io/blob/main/images/Always%20need%20new%20programming%20languages%20(freeCodeCamp).png)
 
 We have all gone through this before. The itch of knowing what a programming language's internals look like. The topic ``programming-language`` yields 3600+ results, and only about 500 languages are in the mainstream (both Modern and Historic) with the rest being either unmaintained or toy languages. Most of us have just taken a subset of an existing language and made a compiler for it. Some of us have contributed to a language we like to use. Some of us have taken one step further and a language and its compiler from scratch. 
 
@@ -34,7 +34,7 @@ Yes, the code hasn't been updated for almost 6 years now but it was perfect. No 
 
 So, with the compiler as a reference, I started building my compiler. I got my compiler nearly done but it started giving some very weird errors and I eventually had to scrap it (Compiler 1 scrapped). I started on the second one, and almost got it finished. It was time for testing. My spirits were high when it all started to go rapidly downhill. All I had to do was to add the bytecode generator for the ``main()`` function but got some NPEs, a developer's worst nightmare. I got it working upto a simple ``Hello World`` program, but every other test put out thousands of Null Pointer Exceptions. Every NPE I fixed resulted in 5 more NPEs being thrown. Compiler 2 was scrapped.
 
-![](https://github.com/SivAxis/SivAxis.github.io/blob/main/images/99 little bugs meme.png)
+![](https://github.com/SivAxis/SivAxis.github.io/blob/main/images/99%20little%20bugs%20meme.png)
 
 At this point I was getting disheartened and frustrated. I was trying to find a way to build a compiler that works and that's when it hit me, The Eureka moment.
 I quickly pull up my computer, cloned the repository I mentioned earlier, and started hacking away. I wanted this compiler to be as close to the original reference as possible.
