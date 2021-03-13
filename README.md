@@ -1,4 +1,4 @@
-Hi! and welcome to the **CodeUnstable** website. I'm CodeUnstable and this is where I share and showcase my projects, code etc. which are on Github.
+Hi! and welcome to the **AurumByte** website. I'm AurumByte and this is where I share and showcase my projects, code etc. which are on Github.
 
 ## Contributing 
 #### Found bugs or typos?
