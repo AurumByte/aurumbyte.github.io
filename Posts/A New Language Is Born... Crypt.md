@@ -6,4 +6,19 @@ OK... It's been sometime since I last posted, but that's because the time was sp
 
 Yes... I developed a language. Yes... I said I would stick with it and not give up, but, if you were me, you would be running away and wishing compilers never existed. So, here are my pains:
 
-Turns out the compiler I "created" (copied and tweaked) had too many problems. Every fix I made resulted in a sea of NPEs. Every other NPE fix resulted in more problems.
+ - Turns out the compiler I "created" (copied and tweaked) had too many problems. Every fix I made resulted in a sea of NPEs. Every other NPE fix resulted in more problems.
+ - The compiler wasn't really mine, and so adding new features became an absolute pain in the brain. Any features I did add were buggy anyway. 
+
+So, I terminated development for Cylvre.
+
+# Ok, Now what ?
+
+After I archived the repository, I was still thinking about how good it would be if I developed a language that would fit my needs. Also, I was pretty disappointed about giving up on Cylvre, and I wanted to make up for it.
+
+As I was sitting there, brainstorming new syntax ideas for my next language, Crypt, I was suddenly struck with an idea. Cylvre's compiler structure meant that when a visitor visits a `ruleContext`, It returns a value of type `SomeStatementClass` which is then passes to `SomeStatementClassGenerator` which generates the bytecode and sends the finished product to the compiler to write to a `.class` file.
+
+My problem with this is... it's way to many files. Fine, it may be more "modular", perhaps even easier to maintain, but it also meant searching for the cause of a problem in multiple files and still coming up with nothing. Also, most of the node classes barely crossed the 100 LOC limit and so was also a pain (*Remember the sea of NPEs? Imagine trying to find the cause for it in over 100 files. Happy now?  I didn't think so.*).
+
+So... yeah, back to the idea. My solution for this was to handle the visiting and the bytecode generation for a statement in the same file/class. This cuts 50% of the code/files required and puts all the aspects of the compiler in one place. Now, if an error occurs, I'll know where to look. I also did some Googling to find if anyone had attempted it before me and nope... not a single result. Seems like I'm the only one who thought of this (or maybe had the guts to try it). Tell me if I'm wrong, I'd be surprised.
+
+As for the implementation itself, I wanted ANTLR's visitor to automatically visit a ruleContext while the file was parsed for my idea to work. A quick [StackOverflow question](https://stackoverflow.com/questions/66613957/can-antlrs-visitor-system-automatically-visit-a-rule-context-when-a-file-is-pars) later I validated my idea and set of on the long journey that was the implementation itself.
