@@ -1,10 +1,7 @@
-Hi! and welcome to the **AurumByte** website. I'm AurumByte and this is where I share and showcase my projects, code etc. which are on Github.
-
-## Contributing 
-#### Found bugs or typos?
-Consider opening an issue or submit a Pull Request fixing the issue. For more info check the contributing guidelines.
+Hi There! I'm AurumByte. This is my website/devblog/blog hosted on GitHub.
 
 # Posts
-- [Creating Cylvre - The Steps I took to create a JVM Programming Language](https://aurumbyte.github.io/Posts/Creating%20Cylvre)
+- [Creating Cylvre - The Steps I took to create a JVM Programming Language](https://aurumbyte.github.io/SourceGold/Posts/Creating%20Cylvre)
+- A New Language is Born... Say Hello to Crypt! (coming soon).
 
 
