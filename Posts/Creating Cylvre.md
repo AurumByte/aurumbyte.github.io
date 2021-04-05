@@ -1,6 +1,6 @@
 # Creating Cylvre - The steps I took to create a JVM Programming Language
 
-#### - 8 Feb 2021 -
+#### -- 8 Feb 2021 
 
 ![](https://github.com/SivAxis/SivAxis.github.io/blob/main/images/Always%20need%20new%20programming%20languages%20(freeCodeCamp).png)
 
