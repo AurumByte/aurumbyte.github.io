@@ -55,3 +55,5 @@ Soon, as in a couple of weeks, I got Compiler 3 up and running. I faced some NPE
 So far, I know that I have got enough features running to make it a small, functional language. Its not complete yet... and will be subjected to lots of changes but the final product will be to provide a great and powerful language that is easy from the user's perspective. Sure, I may be slightly inexperienced for such a project but this is a long term project. I've learned a lot through this project and I'm determined to bring it to light, no matter what.
 
 *This is my first post! Give a star to [this repository](https://github.com/SivAxis/SivAxis.github.io) if you liked it!*
+
+**EDIT:** The project is now dead... but I'm not gonna give up... See my next blog post to catch up!
