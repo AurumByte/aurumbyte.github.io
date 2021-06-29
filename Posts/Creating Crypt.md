@@ -9,7 +9,9 @@ OK... It's been sometime since I last posted, but that's because the time was sp
 Yes... I developed a language. Yes... I said I would stick with it and not give up, but, if you were me, you would have given up the moment the compiler came out with loads of NPEs at its tail. So, here are my pains:
 
  - Turns out the compiler I "created" (copied and tweaked) had too many problems. Every fix I made resulted in a sea of NPEs. Every other NPE fix resulted in more problems.
+ 
  - The compiler wasn't really mine, and so adding new features became an absolute pain in the brain. Any features I did add were buggy anyway.
+ 
  - I wanted to start over and make the compiler **my way**, not spend my time wrapping my head around concepts just to find out how to add/fix a feature in the compiler. 
 
 So, I terminated development for Cylvre.
