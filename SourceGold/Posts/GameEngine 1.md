@@ -31,4 +31,4 @@ I'll definitely be working on this for a while, as I want to develop Games, but 
 
  I dropped C++ after a while, it got a bit "difficult" to work with, but that hole for a performant systems language still lingered... so after a while, I went searching and found Rust, a language that was very fast, has a great build system, memory safety and a great community. Best of all, There was a Rust plugin for IntelliJ! So now i could develop both Rust and Java from the same IDE. It was perfect for me and now I'm a (budding) Rustacean!
 
-Second update, after getting nowhere with the compiler for Crypt, and learning a bit of Rust, I decided to rewrite the entire compiler in Rust using LLVM as a backend because what better way to learn than to rush headlong into projects... so after a cup of Rust, we'll see where this get me. Stay Safe!
+Second update, after getting nowhere with the compiler for Crypt, and learning a bit of Rust, I decided to rewrite the entire compiler in Rust using LLVM as a backend because what better way to learn than to rush headlong into projects... so after a cup of Rust, we'll see where this get me. So expect an update soon.
